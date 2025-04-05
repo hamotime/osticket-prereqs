@@ -28,8 +28,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-2. Within the VM (osticket-vm), download the osTicket-Installation-Files.zip and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”
--	We will use the files in this folder to install osTicket and some of the dependencies.
+2. Within the VM (osticket-vm), download the osTicket-Installation-Files.zip and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”. We will use the files in this folder to install osTicket and some of the dependencies.
 <img src="https://i.imgur.com/d0A1Dqj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/3ZHlvEc.png" height="15%" width="15%" alt="Disk Sanitization Steps"/>
 </p>
