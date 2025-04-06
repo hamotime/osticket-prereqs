@@ -25,7 +25,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 1. I've created the VM in Azure (Resource Group: osTicket-Lab, VM: osticket-vm) and connected to it via RDP using the username: labuser.
 </p>
-<br />
 
 <p>
 2. On the VM (osticket-vm), open your browser, download and unzip your osTicket installation files to the desktop from your cloud storage link. I collected the required installation files into a folder called osTicket-Installation-Files.zip. The unzipped folder will be named "osTicket-Installation-Files" and contains the files for osTicket and dependencies. You can see both the zip and unzipped folders in the image below
