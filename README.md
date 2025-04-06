@@ -208,14 +208,23 @@ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 <br />
 
 <p> 
-18. Continue Setting up osTicket in the browser <br />
+18. Continue Setting up osTicket in the browser. As this is a lab you can just enter fake info and credentials for testing purposes like I have below. <br />
 -	MySQL Database: osTicket <br />
 -	MySQL Username: root <br />
 -	MySQL Password: root <br />
 -	Click “Install Now!”
 </p>
 <p>
-<img src="https://i.imgur.com/CV4S9qW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/9Pxm3gQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <br />
 
+<p> 
+19. Congratulations, hopefully it is installed with no errors! <br />
+-	Help desk login page: http://localhost/osTicket/scp/login.php <br />
+-	End Users osTicket URL: -	http://localhost/osTicket/  <br />
+</p>
+<p>
+<img src="https://i.imgur.com/EzqJe1q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+</p>
+<br />
