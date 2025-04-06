@@ -179,6 +179,7 @@ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 -	Disable inheritance -> Remove All inherited permissions from this object <br />
 -	New Permissions -> Everyone -> All
 </p>
+
 <p>
 <img src="https://i.imgur.com/NZZ1dqD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/xQ7wU3s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -187,8 +188,8 @@ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 <img src="https://i.imgur.com/nboqahp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-<p>
-  
+
+<p>  
 17. From the “osTicket-Installation-Files” folder, install HeidiSQL <br />
 -	Open Heidi SQL <br />
 -	Create a new session, root/root <br />
@@ -200,5 +201,21 @@ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 <img src="https://i.imgur.com/sKuLNyG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/WlziC2w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/GbNtx03.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/w89LCAG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/rVH11y2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/Xdy1rys.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <br />
+
+<p> 
+18. Continue Setting up osTicket in the browser <br />
+-	MySQL Database: osTicket <br />
+-	MySQL Username: root <br />
+-	MySQL Password: root <br />
+-	Click “Install Now!”
+</p>
+<p>
+<img src="https://i.imgur.com/CV4S9qW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+</p>
+<br />
+
