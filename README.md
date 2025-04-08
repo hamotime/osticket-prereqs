@@ -18,12 +18,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - VM in Azure (2 cpus, 8gb RAM minimum) running Windows 10 Pro
-- OSTicket Installation Files. Refer to https://docs.osticket.com/en/latest/Getting%20Started/Installation.html for all the required files. Then, I recommend uploading to a folder in cloud storage and a public link to it. That way you easily download them to your VM.
+- OSTicket Installation Files. Refer to https://docs.osticket.com/en/latest/Getting%20Started/Installation.html for all the required files. Then, I recommend creating a folder in cloud storage, uploading all the files too it, then making a public link to it. That way you easily download them to your VM.
 
 <h2>Installation Steps</h2>
 
 <p>
-1. I've created the VM in Azure (Resource Group: osTicket-Lab, VM: osticket-vm) and connected to it via RDP using the username: labuser.
+1. I've gone ahead and created the VM in Azure and and connected to it via RDP. <br />
+- Resource Group: osTicket-Lab <br />
+- VM Name: osticket-vm <br />
+- Username: labuser <br />
 </p>
 
 <p>
@@ -32,7 +35,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/d0A1Dqj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/3ZHlvEc.png" height="15%" width="15%" alt="Disk Sanitization Steps"/>
 </p>
-<br />
 
 <p>
 3. Install/Enable IIS in Windows with CGI. Make sure to enable CGI by following these steps:
