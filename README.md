@@ -18,7 +18,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - VM in Azure (2 cpus, 8gb RAM minimum) running Windows 10 Pro
-- osTicket Installation Files. Refer to https://docs.osticket.com/en/latest/Getting%20Started/Installation.html for all the required files. Then, I recommend uploading to a folder in cloud storage and a public link to it. That way you easily download them to your VM.
+- OSTicket Installation Files. Refer to https://docs.osticket.com/en/latest/Getting%20Started/Installation.html for all the required files. Then, I recommend uploading to a folder in cloud storage and a public link to it. That way you easily download them to your VM.
 
 <h2>Installation Steps</h2>
 
