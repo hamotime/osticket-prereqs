@@ -18,15 +18,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - VM in Azure (2 cpus, 8gb RAM minimum) running Windows 10 Pro
-- OSTicket Installation Files. Refer to https://docs.osticket.com/en/latest/Getting%20Started/Installation.html for all the required files. Then, I recommend creating a folder in cloud storage, uploading all the files too it, then making a public link to it. That way you easily download them to your VM.
+- <a href="https://docs.osticket.com/en/latest/Getting%20Started/Installation.html">OSTicket Installation Files</a>. I recommend creating a folder in cloud storage, uploading all the installation files too it, then making a public link to it. That way you easily download them to your VM.
 
 <h2>Installation Steps</h2>
 
 <p>
-1. I've gone ahead and created the VM in Azure and and connected to it via RDP. <br />
-- Resource Group: osTicket-Lab <br />
-- VM Name: osticket-vm <br />
-- Username: labuser <br />
+1. I've gone ahead and created the VM in Azure and and connected to it via RDP.
+
+- Resource Group: osTicket-Lab
+- VM Name: osticket-vm
+- Username: labuser
 </p>
 
 <p>
