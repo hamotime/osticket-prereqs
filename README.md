@@ -17,8 +17,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- VM in Azure (2 cpus, 8gb RAM minimum) running Windows 10 Pro
-- <a href="https://docs.osticket.com/en/latest/Getting%20Started/Installation.html">OSTicket Installation Files</a>. I recommend creating a folder in cloud storage, uploading all the installation files too it, then making a public link to it. That way you easily download them to your VM.
+- Create a VM in Azure (2 cpus, 8gb RAM minimum) running Windows 10 Pro
+- <a href="https://docs.osticket.com/en/latest/Getting%20Started/Installation.html">OSTicket Installation Files</a>. I recommend creating a folder in cloud storage, uploading all the installation files to it, then creating a share link. That way you easily download them to your VM.
 
 <h2>Installation Steps</h2>
 
@@ -31,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-2. On the VM (osticket-vm), open your browser, download and unzip your osTicket installation files to the desktop from your cloud storage link. I collected the required installation files into a folder called osTicket-Installation-Files.zip. The unzipped folder will be named "osTicket-Installation-Files" and contains the files for osTicket and dependencies. You can see both the zip and unzipped folders in the image below
+2. On the VM (osticket-vm), open your browser, download and unzip your osTicket installation files to the desktop from the cloud storage link. I collected the required installation files into a folder called "osTicket-Installation-Files.zip." The unzipped folder will be named "osTicket-Installation-Files" and contains the files for osTicket and dependencies. You can see both the zip and unzipped folders below.
 </p>
 <img src="https://i.imgur.com/d0A1Dqj.png" height="80%" width="80%" alt="Installation-Steps"/>
 <img src="https://i.imgur.com/3ZHlvEc.png" height="15%" width="15%" alt="Installation-Steps"/>
@@ -54,28 +54,28 @@ Click OK to install, and once the message "Windows completed the requested chang
 </p>
 
 <p>
-5. From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+5. From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi).
 </p>
 <p>
 <img src="https://i.imgur.com/evxj844.png" height="80%" width="80%" alt="Installation-Steps"/>
 </p>
 
 <p>
-6. From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi)
+6. From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi).
 </p>
 <p>
 <img src="https://i.imgur.com/gY3gvI4.png" height="80%" width="80%" alt="Installation-Steps"/>
 </p>
 
 <p>
-7. Create the directory C:\PHP
+7. Create the directory C:\PHP.
 </p>
 <p>
 <img src="https://i.imgur.com/wp8SQ3E.png" height="80%" width="80%" alt="Installation-Steps"/>
 </p>
 
 <p>
-8. From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder. Explore to the C:\PHP and verify that it has been populated the php-7.3.8 files
+8. From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder. Explore to the C:\PHP and verify that it has been populated the php-7.3.8 files.
 </p>
 <p>
 <img src="https://i.imgur.com/guWY0om.png" height="80%" width="80%" alt="Installation-Steps"/>
@@ -91,9 +91,9 @@ Click OK to install, and once the message "Windows completed the requested chang
 
 <p>
 10. Install MySQL 5.5.62 from the "osTicket-Installation-Files" folder (mysql-5.5.62-win32.msi): <br />
-Choose Typical Setup during installation <br />
-After installation, launch the Configuration Wizard <br />
-Select Standard Configuration <br />
+Choose Typical Setup during installation. <br />
+After installation, launch the Configuration Wizard. <br />
+Select Standard Configuration. <br />
 Set the following credentials: <br />
 - Username: root <br />
 - Password: root <br />
@@ -103,7 +103,7 @@ Set the following credentials: <br />
 </p>
 
 <p>
-10. Open IIS as an Admin
+10. Open IIS as an Admin.
 </p>
 <p>
 <img src="https://i.imgur.com/vskyhAd.png](https://i.imgur.com/vS4INNs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -111,7 +111,7 @@ Set the following credentials: <br />
 </p>
 
 <p>
-11. Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe). Then Reload IIS (Open IIS, Stop and Start the server, under Actions on the right you can see the options to stop and start the server.)
+11. Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe). Then Reload IIS (Open IIS, Stop and Start the server. Under "Actions" on the right you can see the options to stop and start the server.)
 </p>
 <p>
 <img src="https://i.imgur.com/79qCPZ2.png" height="80%" width="80%" alt="Installation-Steps"/>
@@ -129,7 +129,7 @@ Set the following credentials: <br />
 </p>
 
 <p>
-13. Load the website now. Open IIS -> default site -> osTicket folder -> Click Browse 80 (http). Some extensions are not enabled that we need.
+13. Load the website now. Open IIS -> Default site -> osTicket folder -> Click Browse 80 (http). Notice some extensions are not enabled that we need.
 </p>
 <p>
 <img src="https://i.imgur.com/lIyQEvd.png" height="80%" width="80%" alt="Installation-Steps"/>
@@ -153,7 +153,7 @@ Set the following credentials: <br />
 </p>
 
 <p>
-15. Rename: ost-config.php <br />
+15. Rename: ost-config.php. <br />
 From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php <br />
 To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 </p>
@@ -163,7 +163,7 @@ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 </p>
 
 <p>
-16. Rename: ost-config.php <br />
+16. Assign Permissions to ost-config.php now. <br />
 -	Disable inheritance -> Remove All inherited permissions from this object <br />
 -	New Permissions -> Everyone -> All
 </p>
@@ -204,7 +204,7 @@ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 </p>
 
 <p> 
-19. Congratulations, hopefully it is installed with no errors! <br />
+19. Congratulations, osTicket is installed! <br />
 </p>
 <p>
 <img src="https://i.imgur.com/EzqJe1q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
